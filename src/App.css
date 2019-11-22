@@ -1,5 +1,187 @@
 body {
-  background: #7159c1;
-  color: #FFF;
-  font-family: Arial, Helvetica, sans-serif; 
+  background: #F2F2F2;
+  width: 1024px;
+  height: 1024px;
+  margin: 0px;
+}
+
+.header-logo {
+position: absolute;
+width: 1024px;
+height: 64px;
+left: 0px;
+top: 0px;
+background: #4A90E2;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.facebooklogo {
+position: absolute;
+width: 120.92px;
+height: 23.93px;
+left: 42.03px;
+top: 20.05px;
+}
+
+.perfilicon {
+position: absolute;
+width: 25px;
+height: 25px;
+left: 958px;
+top: 21px;
+}
+
+.header-perfil {
+position: absolute;
+width: 90px;
+height: 20px;
+left: 869px;
+top: 10px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.post-group {
+position: relative;
+width: 725px;
+height: 400px;
+left: 150px;
+top: 70px;
+background: #FFF;
+mix-blend-mode: normal;
+opacity: 0.8;
+box-shadow: .2px .2px #3E3E3E;
+
+}
+
+.post-item {
+  width: 701px;
+  height: 325px;
+  margin: 20px;
+
+  box-sizing: border-box;
+}
+
+.post-avatar  img {
+position: absolute;
+width: 660px;
+height: 22px;
+left: 25px;
+top: 28px;
+width: 32px;
+height: 32px;
+border-radius: 16px;
+
+}
+
+.author {
+  position: absolute;
+  width: 660px;
+  height: 22px;
+  left: 60px;
+  top: 15px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 18px;
+
+color: #4A4A4A;
+
+}
+
+.date {
+position: absolute;
+width: 660px;
+height: 22px;
+left: 60px;
+top: 50px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 14px;
+
+color: #9A9A9A;
+}
+
+.post-content {
+position: absolute;
+width: 660px;
+height: 22px;
+left: 25px;
+top: 70px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+color: #3E3E3E;
+
+}
+
+.post-comments {
+  position: absolute;
+  width: 660px;
+  height: 110px;
+  left: 50px;
+  top: 120px;
+  margin: 10px;
+}
+
+.comment {
+  width: 622px;
+  height: 100px;
+  left: 220px;
+  top: 214px;
+  text-align: initial;
+  background: #EEEEEE;
+  border-radius: 20px;
+  margin: 10px
+}
+
+.comment-avatar{
+position: relative;
+width: 28px;
+height: 28px;
+left: -40px;
+top: -10px;
+border-radius: 16px;
+}
+
+.divisor {
+position: absolute;
+width: 660px;
+height: 1px;
+left: 30px;
+top: 120px;
+background: #EEEEEE;
+}
+
+.comment div b {
+  position: relative;
+  left: -5px;
+  top: -30px;
+  text-align: initial;
+  background: #EEEEEE;
+  border-radius: 20px;
+  margin: 10px
+}
+
+.comment div span {
+  position: relative;
+  left: 0px;
+  top: -30px;
+  text-align: initial;
+  background: #EEEEEE;
+  border-radius: 20px;
+  margin: 10px
 }
